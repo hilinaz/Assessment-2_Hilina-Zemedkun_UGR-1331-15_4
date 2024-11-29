@@ -1,0 +1,208 @@
+/* setting up the header */
+header{
+    padding: 0 15%;
+        padding-top: 20px;
+    
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    
+}
+
+header h1 {
+    margin-bottom: 45px;
+}
+
+header h5{
+    margin-top: 30px;
+        margin-bottom: 0;
+        padding-right: 25px;
+}
+
+.heading {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading h5 {
+    align-self: flex-end;
+}
+
+aside {
+    width: 30%
+}
+
+button{
+    padding: 10px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+}
+/* home page setting */
+.first_sec {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    padding: 0 15%;
+    margin-top: 25px;
+}
+
+.container {
+    width: 30%;
+    margin-bottom: 25px;
+
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+
+.container h5 {
+    margin-bottom: 15px;
+
+}
+
+.container-img{
+    height: 144px;
+    margin-bottom: 15px;
+}
+.container img {
+    width: 100%;
+    max-height: 100%;
+}
+
+/* side bar setting */
+.sidebar li{
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    margin-bottom: 35px;
+}
+
+.sponsor_list h5 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.side_title {
+    margin-bottom: 20px;
+}
+
+/* footer setting */
+
+.second_Sec{
+    padding: 0 15%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-top: 20px;
+}
+
+hr {
+    height: 1px;
+    
+}
+
+.foot {
+    padding: 30px 15%;
+    display: flex;
+}
+
+.footer_li {
+    display: flex;
+    gap: 30px;
+}
+
+.footer_ele {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+}
+
+.img-container {
+    display: flex;
+    gap: 4%
+}
+.container-small {
+    width: 70px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.about-container {
+    display: flex;
+    gap: 4%;
+}
+
+/* About page */
+.container_about {
+    display: flex;
+    padding: 0 15%;
+    gap: 5%;
+    margin-top: 30px
+}
+
+.container_2 {
+    width: 70%
+}
+.container_about h1{
+    margin-bottom: 20px;
+}
+
+.container_2 p {
+    margin-bottom: 20px;
+}
+
+.container2_first {
+    margin-bottom: 30px;
+}
+
+.sponsor {
+
+    margin-top: 20px;
+}
+
+.about-img {
+    width: 70px;
+    height: 80px;
+}
+
+/* contact */
+.Contact {
+    display: flex;
+    padding: 0 15%;
+    gap: 5%;
+    margin-top: 30px
+}
+.Contact h1{
+    margin-bottom: 20px;
+}
+.Contact p {
+    margin-bottom: 20px;
+}
+
+.contact_intro {
+    margin-bottom: 40px;
+}
+
+.form {
+    width: 70%
+}
+
+form {
+    margin-top: 30px;
+}
+
+input,
+textarea {
+    width: 90%;
+    padding: 7px;
+    margin-bottom: 20px;
+    margin-top: 7px;
+}
+.submit_btn{
+    padding: 10px 25px;
+}

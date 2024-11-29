@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat;
+    color: rgb(96, 96, 96);
+
+}
+
+/* Styling all links */
+a {
+    color: rgb(141, 213, 41);
+}
+
+/* stylink orange links */
+.orange a {
+    color: #cd6e2f;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    font-weight: 450;
+
+}
+
+/* setting up the header */
+header {
+    background-color: #54473F;
+}
+
+
+
+header h5 {
+    color: rgb(235, 233, 233);
+    font-weight: 400;
+    font-family: Dancing Script;
+    font-size: 1.5rem;
+
+}
+
+.Title {
+    color: rgb(235, 233, 233);
+    font-size: 4rem;
+}
+
+.orange {
+    color: #181C14;
+}
+
+/* button setting */
+button {
+    background-color: rgb(141, 213, 41);
+    color: rgb(244, 247, 242);
+    border-width: 0;
+    border-radius: 10%;
+    box-shadow: 38;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button:hover {
+    box-shadow: 3px 3px 3px rgb(174, 162, 138);
+    transform: scale(1.01);
+}
+
+button:hover {
+    background-color: #d67c40;
+
+}
+
+.orange-btn {
+    background-color: #d67c40;
+}
+
+/* home page setting */
+
+
+.first_sec h1 {
+    color: #493628;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+
+.container-img { 
+    border: 5px solid whitesmoke;
+    box-shadow: 5px 5px 15px rgba(65, 64, 64, 0.3);
+}
+
+.container img {
+    object-fit: fill;
+}
+
+.container p {
+    font-size: 0.9rem;
+}
+
+.Info_bag:hover {
+    transform: scale(1.05);
+}
+
+/* side bar setting */
+.sidebar li {
+    list-style-type: none;
+   
+}
+
+.sponsor_list p {
+    font-size: 0.8rem;
+}
+
+/* footer setting */
+.second_Sec {
+    background-color: #54473F;
+    color: rgb(244, 247, 242);
+}
+
+.green {
+    color: rgb(141, 213, 41);
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    background-color: rgb(109, 109, 109);
+}
+
+.foot {
+    background-color: #201b18;
+    color: rgb(244, 247, 242);
+
+}
+
+.footer_li {
+    display: flex;
+    gap: 30px;
+}
+
+.img-container {
+    flex-wrap: wrap;
+}
+
+
+
+#Contact {
+    color: rgb(141, 213, 41);
+}
+
+
+/* About page */
+.container_about h1 {
+    color: #493628;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* contact */
+.Contact h1 {
+    color: #493628;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+
+input:focus,
+textarea:focus {
+    outline-color: rgb(170, 253, 55);
+    ;
+
+}
+
+.submit_btn {
+    background-color: rgb(234, 232, 232);
+    border-radius: 0;
+    border: 3px solid rgb(249, 246, 246);
+    box-shadow: 3px 3px 3px rgb(225, 224, 224);
+    color: rgb(95, 94, 94)
+}
+
+.submit_btn:hover {
+    background-color: rgb(141, 213, 41);
+    color: white
+}
